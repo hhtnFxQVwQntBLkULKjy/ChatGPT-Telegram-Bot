@@ -97,7 +97,7 @@ ChatGPT Telegram 机器人是一个强大的 Telegram 机器人，支持兼容 O
 
 点击下面的按钮可以在 Fugue 上使用构建好的 Docker 镜像一键部署：
 
-[![Deploy to Fugue](https://api.fugue.pro/button.svg)](https://fugue.pro/new/repository?source-mode=docker-image&name=chatgpt&image-ref=docker.io%2Fyym68686%2Fchatgpt%3Alatest&env%5BAPI%5D=&env%5BBASE_URL%5D=&env%5BBOT_TOKEN%5D=&env%5BWEB_HOOK%5D=)
+[![Deploy to Fugue](https://api.fugue.pro/button.svg)](https://fugue.pro/new/repository?source-mode=docker-image&name=chatgpt&image-ref=docker.io%2Fyym68686%2Fchatgpt%3Alatest&env%5BAPI%5D=&env%5BBASE_URL%5D=&env%5BBOT_TOKEN%5D=)
 
 打开部署页后，在环境变量编辑器中补全 `BOT_TOKEN`、`API`、`BASE_URL` 后直接部署即可。`WEB_HOOK` 为可选项；如果已经为应用配置了公网域名，可以填写 `https://你的域名/`，否则可以留空。
 

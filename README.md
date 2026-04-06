@@ -95,7 +95,7 @@ The following is a list of environment variables related to the bot's plugin set
 
 Click the button below to deploy the pre-built Docker image on Fugue with one click:
 
-[![Deploy to Fugue](https://api.fugue.pro/button.svg)](https://fugue.pro/new/repository?source-mode=docker-image&name=chatgpt&image-ref=docker.io%2Fyym68686%2Fchatgpt%3Alatest&env%5BAPI%5D=&env%5BBASE_URL%5D=&env%5BBOT_TOKEN%5D=&env%5BWEB_HOOK%5D=)
+[![Deploy to Fugue](https://api.fugue.pro/button.svg)](https://fugue.pro/new/repository?source-mode=docker-image&name=chatgpt&image-ref=docker.io%2Fyym68686%2Fchatgpt%3Alatest&env%5BAPI%5D=&env%5BBASE_URL%5D=&env%5BBOT_TOKEN%5D=)
 
 After opening the deploy page, fill in `BOT_TOKEN`, `API`, and `BASE_URL` in the environment editor, then deploy. `WEB_HOOK` is optional. If you already have a public domain for the app, set it to `https://your-domain/`; otherwise, you can leave it blank.
 
